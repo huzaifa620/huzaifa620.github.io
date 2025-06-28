@@ -17,8 +17,7 @@ nav_order: 3
         <p><strong>Bachelor's of Engineering in Computer Systems</strong></p>     
         <p><strong>Service Rd, NED University Of Engineering & Technology, Karachi, Pakistan</strong></p>
         <ul>
-            <li>Ranked in the top 10% of the batch</li>
-            <li>Graduated with a CGPA of 3.63</li>
+            <li>Graduated with a CGPA of 3.289</li>
             <li>Completed one of the most complex final year projects in the entire batch</li>
         </ul>
     </div>
@@ -36,8 +35,7 @@ nav_order: 3
         <p><strong>Higher Secondary School Certificate (H.S.S.C), Pre-Engineering</strong></p>     
         <p><strong>Soldier Bazaar, Garden East Karachi, Karachi, Pakistan</strong></p>
         <ul>
-            <li>Ranked 1% in Karachi Board Examinations</li>
-            <li>Scored 942 out of 1100 (85.64%) in Karachi Board Examinations</li>
+            <li>Scored 931 out of 1100 (84.64%) in Karachi Board Examinations</li>
         </ul>
     </div>
 </div>
@@ -54,7 +52,6 @@ nav_order: 3
         <p><strong>Secondary School Certificate (S.S.C), Computer Science</strong></p>     
         <p><strong>Gulshan 13D-II, Karachi, Pakistan.</strong></p>
         <ul>
-            <li>Ranked 5% in Karachi Board Examinations</li>
             <li>Scored 765 out of 850 (90%) in Karachi Board Examinations</li>
         </ul>
     </div>

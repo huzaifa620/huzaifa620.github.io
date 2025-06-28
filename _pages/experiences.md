@@ -47,7 +47,6 @@ nav_order: 2
       <li>Led the complete development of the <a href="https://stage.agentarc.ai/">AgentArc</a> frontend application, including all pages, API integrations, and token-based authorization systems.</li>
       <li>Engineered the Privy login flow for secure user authentication and session management.</li>
       <li>Integrated staking functionality via ABI smart contracts to support Web3 features.</li>
-      <li>Worked across multiple teams to solve complex engineering challenges and maintain high code quality.</li>
     </ul>
   </div>
 </div>
@@ -76,7 +75,7 @@ nav_order: 2
 
 <div class="project0">
   <div class="image-container0">
-    {% include figure.liquid loading="eager" path="assets/img/crosswing.png" %}
+    {% include figure.liquid loading="eager" path="assets/img/crosswing.jpg" %}
   </div>
   <div class="project-details0">
     <div class="heading">

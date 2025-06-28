@@ -16,7 +16,7 @@ nav_order: 7
       <span class="timeline">May 2025</span>
     </div>
     <p><b>Organizer:</b> <a href="https://arena.colosseum.org">Colosseum</a></p>
-    <p><b>Project:</b> Agent Arc</p>
+    <p><b>Project:</b> <a href="https://stage.agentarc.ai/">Agent Arc</a></p>
     <p><b>Description:</b> Agent Arc is a non-custodial AI trading terminal that only charges users if it makes them money. Powered by neural networks and large language models, it analyzes markets around the clock, autonomously executes trades, and adapts to shifting conditions in real time. Designed for trustless operation on Solana, it eliminates pooled funds, subscriptions, and manual intervention. Fees are transparently enforced on-chain, guaranteeing provable performance and user confidence.</p>
     <p><b>My Contributions:</b></p>
     <ul>
