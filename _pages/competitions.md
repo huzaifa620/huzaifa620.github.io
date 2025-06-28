@@ -25,8 +25,6 @@ nav_order: 7
       <li>Contributed to AI-driven trading execution modules and dynamic market analysis logic.</li>
       <li>Assisted in integrating smart contract workflows for on-chain fee processing and verifiable trade outcomes.</li>
     </ul>
-    <a href="https://github.com/Sentient-Labs-1/agent-arc-frontend"><button>View Frontend Code</button></a>
-    <a href="https://github.com/Sentient-Labs-1/agent-arc-backend"><button>View Backend Code</button></a>
-    <a href="https://www.loom.com/share/9c8eb8540d0142e1a944329b9df7d0ca?sid=92baedac-5fe6-4474-9b00-577966ffbb21"><button>View Walkthrough</button></a>
+    <a href="https://www.loom.com/share/9c8eb8540d0142e1a944329b9df7d0ca?sid=92baedac-5fe6-4474-9b00-577966ffbb21"><button>View Submission Walkthrough</button></a>
   </div>
 </div>
