@@ -3,19 +3,19 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: M 
+first_name: M
 middle_name: Huzaifa
 last_name: Siddiq
 email: huzaifa62012@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to the academic portfolio of M Huzaifa. Here, you can find comprehensive information about his projects, publications, news updates, resume, and more. This site serves as a detailed showcase of his academic journey and professional accomplishments.
-footer_text: 
-keywords: 
+footer_text:
+keywords:
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: DP-modified.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://huzaifa620.github.io/ # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -78,7 +78,7 @@ github_username: huzaifa620
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
-kaggle_id: 
+kaggle_id:
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
@@ -90,7 +90,7 @@ osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
-research_gate_profile: 
+research_gate_profile:
 scholar_userid: # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
@@ -103,13 +103,12 @@ whatsapp_number: 923418183070 # your WhatsApp number (full phone number in inter
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username:  # your X handle
+x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
-
 
 # Pagination
 pagination:

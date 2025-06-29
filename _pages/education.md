@@ -5,6 +5,7 @@ title: Education
 nav: true
 nav_order: 3
 ---
+
 <div class="project0">
     <div class="image-container0">
         {% include figure.liquid loading="eager" path="assets/img/NEDUET_logo.png"%}
