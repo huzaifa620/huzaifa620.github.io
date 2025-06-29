@@ -57,7 +57,7 @@ nav_order: 2
   </div>
   <div class="project-details0">
     <div class="heading">
-      <a href="http://www.algorithm.com.pk/">
+      <a href="https://algorithmenergy.com/">
         <h3>Algorithm Consulting (Pvt) Ltd</h3>
       </a>
       <span class="timeline">May 2024 – Oct 2024</span>
