@@ -5,7 +5,7 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.first_name }} <span class="font-weight-bold">{{ site.middle_name }}</span> 
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
@@ -55,7 +55,7 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
       <p style="text-align: right;">
-      <a href="https://medium.com/@huzaifa62012" style="color: inherit; text-decoration: underline; underline">Checkout More</a>
+      <a href="https://medium.com/@huzaifa6201" style="color: inherit; text-decoration: underline; underline">Checkout More</a>
       </p>
     {% endif %}
     <hr>

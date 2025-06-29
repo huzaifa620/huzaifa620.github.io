@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Muhammad 
+first_name: M 
 middle_name: Huzaifa
 last_name: Siddiq
 email: huzaifa62012@gmail.com
@@ -86,7 +86,7 @@ lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: muhammad-huzaifa-2a3821249
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-medium_username: 
+medium_username: huzaifa6201
 orcid_id: # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
@@ -126,7 +126,7 @@ related_blog_posts:
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@huzaifa62012/feed
+    rss_url: https://medium.com/@huzaifa6201
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
