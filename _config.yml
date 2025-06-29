@@ -123,7 +123,7 @@ related_blog_posts:
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@huzaifa6201
+    rss_url: https://medium.com/@huzaifa6201/feed
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
