@@ -16,9 +16,9 @@ nav_order: 5
         <span class="timeline">Aug 2022 - Aug 2023</span>
         </div>
         <p>The Final Year Design Project aims to improve object grasping and manipulation in warehouses. It features an autonomous robotic arm that efficiently retrieves items from any defined place using dual monocular cameras for 6D object pose estimation and techniques involving robotics and machine learning for grasping strategies that includes kinematic modeling and inverse kinematic modeling of the robotic arm.</p>
-        <a href="https://docs.google.com/presentation/d/1angaKsRuR_vHHrlyIwOUKt6ev2wqfSnjwKETaQpPNFc/"><button>View Presentation</button></a>
-        <a href="https://drive.google.com/drive/folders/1U4Bl81hgEc-5N_hCVpneEVkcrgtJiXAt"><button>View Media</button></a>
-        <a href="https://www.youtube.com/shorts/nJrsF2eAPDo"><button>View Demonstration</button></a>
-        <a href="https://huzaifa620.github.io/assets/pdf/Research_Paper_FYP.pdf"><button>View Research Paper</button></a>
+        <a href="https://docs.google.com/presentation/d/1angaKsRuR_vHHrlyIwOUKt6ev2wqfSnjwKETaQpPNFc/" target="_blank" rel="noopener noreferrer"><button>View Presentation</button></a>
+        <a href="https://drive.google.com/drive/folders/1U4Bl81hgEc-5N_hCVpneEVkcrgtJiXAt" target="_blank" rel="noopener noreferrer"><button>View Media</button></a>
+        <a href="https://www.youtube.com/shorts/nJrsF2eAPDo" target="_blank" rel="noopener noreferrer"><button>View Demonstration</button></a>
+        <a href="https://huzaifa620.github.io/assets/pdf/Research_Paper_FYP.pdf" target="_blank" rel="noopener noreferrer"><button>View Research Paper</button></a>
     </div>
 </div>
