@@ -30,17 +30,40 @@ nav_order: 2
 
 <div class="project0">
   <div class="image-container0">
-    {% include figure.liquid loading="eager" path="assets/img/morfyus_logo.jpg" %}
+    {% include figure.liquid loading="eager" path="assets/img/lovum.png" %}
   </div>
   <div class="project-details0">
     <div class="heading">
-      <a href="https://morfyus.com/">
-        <h3>Morfyus</h3>
+      <a href="http://lovumgroup.com/" target="_blank" rel="noopener noreferrer">
+        <h3>Lovum Group</h3>
       </a>
-      <span class="timeline">Jan 2025 – Present</span>
+      <span class="timeline">Jan 2024 – Present</span>
     </div>
     <p>Position: <strong>Software Engineer</strong></p>
-    <p>Employment Type: <strong>Part-Time</strong></p>
+    <p>Employment Type: <strong>Contract (Part-Time)</strong></p>
+    <p>Location: <strong>Remote (United States)</strong></p>
+    <p><b>Key Responsibilities:</b></p>
+    <ul>
+      <li>Contributing to the development of <a href="https://eduessential.com/" target="_blank" rel="noopener noreferrer"><strong>EduEssential</strong></a> and <a href="https://beta.waridibody.com/" target="_blank" rel="noopener noreferrer"><strong>Waridi</strong></a>, enhancing user experience through innovative solutions.</li>
+      <li>Utilizing <strong>Next.js</strong> and <strong>Python</strong> for both backend and frontend development, ensuring seamless integration and performance.</li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="project0">
+  <div class="image-container0">
+    {% include figure.liquid loading="eager" path="assets/img/agentarc_logo.jpg" %}
+  </div>
+  <div class="project-details0">
+    <div class="heading">
+      <a href="https://agentarc.ai/">
+        <h3>Agent Arc</h3>
+      </a>
+      <span class="timeline">Jan 2025 – Jul 2025</span>
+    </div>
+    <p>Position: <strong>Software Engineer</strong></p>
+    <p>Employment Type: <strong>Contract (Part-Time)</strong></p>
     <p>Location: <strong>Remote (Singapore)</strong></p>
     <p><b>Key Responsibilities:</b></p>
     <ul>
@@ -124,8 +147,8 @@ nav_order: 2
       </a>
       <span class="timeline">May 2022 – Aug 2022</span>
     </div>
-    <p>Position: <strong>Junior Software Engineer</strong></p>
-    <p>Location: <strong>Remote (Dubai, UAE)</strong></p>
+    <p>Position: <strong>Software Engineer Grade A1</strong></p>
+    <p>Location: <strong>Remote (Abu Dhabi, United Arab Emirates)</strong></p>
     <p><b>Key Responsibilities:</b></p>
     <ul>
       <li>Worked on a data extraction project leveraging Import.io to automate data collection processes.</li>
