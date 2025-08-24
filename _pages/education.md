@@ -3,7 +3,7 @@ layout: page
 permalink: /education/
 title: Education
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="project0">
@@ -47,7 +47,7 @@ nav_order: 3
     </div>
     <div class="project-details0">
         <div class="heading">
-        <a href="https://smpublic.edu.pk/"><h3>Cambridge Public School</h3></a>
+        <a href=""><h3>Cambridge Public School</h3></a>
         <span class="timeline">2011 - 2017</span>
         </div>
         <p><strong>Secondary School Certificate (S.S.C), Computer Science</strong></p>     
