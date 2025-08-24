@@ -4,10 +4,11 @@ layout: default
 <div class="post">
   <header class="post-header">
     <style>
+      /* Header hero layout */
       .hero {
         display: flex;
         align-items: flex-start;
-        gap: 20px;
+        gap: 24px;
         flex-wrap: wrap;
       }
       .hero-text {
@@ -22,7 +23,15 @@ layout: default
         height: auto;
         border-radius: 12px;
       }
-      @media (max-width: 576px) {
+      .post-header .post-title {
+        margin-bottom: 6px;
+      }
+      /* Prevent any legacy float styles from the theme */
+      .post-header .profile {
+        float: none !important;
+        margin: 0;
+      }
+      @media (max-width: 640px) {
         .hero {
           flex-direction: column-reverse;
           align-items: flex-start;
@@ -34,6 +43,7 @@ layout: default
     </style>
 
     <div class="hero">
+      <!-- Text: Name + Subtitle -->
       <div class="hero-text">
         <h1 class="post-title">
           {% if site.title == 'blank' %}
@@ -46,6 +56,7 @@ layout: default
         <p class="desc">{{ page.subtitle }}</p>
       </div>
 
+      <!-- Photo + quick contact -->
       {% if page.profile %}
         <div class="hero-photo">
           {% if page.profile.image %}
@@ -55,11 +66,11 @@ layout: default
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
             {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
-            {% if page.profile.more_info %}
-              <div class="more-info">{{ page.profile.more_info }}</div>
-            {% endif %}
+          {% endif %}
+          {% if page.profile.more_info %}
+            <div class="more-info">{{ page.profile.more_info }}</div>
           {% endif %}
         </div>
       {% endif %}
@@ -67,29 +78,42 @@ layout: default
   </header>
 
   <article>
+    <!-- Main content -->
     <div class="clearfix">{{ content }}</div>
+
     <hr>
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      </h2>
       {% include news.liquid limit=true %}
     {% endif %}
+
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
-      <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Blog Posts</a></h2>
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Blog Posts</a>
+      </h2>
       {% include latest_posts.liquid %}
       <p style="text-align: right;">
         <a href="https://medium.com/@huzaifa6201" style="color: inherit; text-decoration: underline;">Checkout More</a>
       </p>
     {% endif %}
+
     <hr>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a></h2>
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+      </h2>
       {% include selected_papers.liquid %}
       <p>Engaged in exciting research projects with upcoming publications in the pipeline.</p>
     {% endif %}
 
+    <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
