@@ -3,86 +3,44 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <style>
-      /* Header hero layout */
-      .hero {
-        display: flex;
-        align-items: flex-start;
-        gap: 24px;
-        flex-wrap: wrap;
-      }
-      .hero-text {
-        flex: 1 1 420px;
-        min-width: 280px;
-      }
-      .hero-photo {
-        flex: 0 0 180px;
-      }
-      .hero-photo img {
-        width: 180px;
-        height: auto;
-        border-radius: 12px;
-      }
-      .post-header .post-title {
-        margin-bottom: 6px;
-      }
-      /* Prevent any legacy float styles from the theme */
-      .post-header .profile {
-        float: none !important;
-        margin: 0;
-      }
-      @media (max-width: 640px) {
-        .hero {
-          flex-direction: column-reverse;
-          align-items: flex-start;
-        }
-        .hero-photo {
-          margin-top: 8px;
-        }
-      }
-    </style>
-
-    <div class="hero">
-      <!-- Text: Name + Subtitle -->
-      <div class="hero-text">
-        <h1 class="post-title">
-          {% if site.title == 'blank' %}
-            {{ site.first_name }}
-            <span class="font-weight-bold">{{ site.middle_name }}</span> {{ site.last_name }}
-          {% else %}
-            {{ site.title }}
-          {% endif %}
-        </h1>
-        <p class="desc">{{ page.subtitle }}</p>
-      </div>
-
-      <!-- Photo + quick contact -->
-      {% if page.profile %}
-        <div class="hero-photo">
-          {% if page.profile.image %}
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
-          {% endif %}
-          {% if page.profile.more_info %}
-            <div class="more-info">{{ page.profile.more_info }}</div>
-          {% endif %}
-        </div>
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        {{ site.first_name }}
+        <span class="font-weight-bold">{{ site.middle_name }}</span>
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
       {% endif %}
-    </div>
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
   </header>
 
   <article>
-    <!-- Main content -->
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <div class="clearfix">{{ content }}</div>
-
     <hr>
-
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
@@ -90,7 +48,6 @@ layout: default
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
-
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
@@ -98,12 +55,10 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
       <p style="text-align: right;">
-        <a href="https://medium.com/@huzaifa6201" style="color: inherit; text-decoration: underline;">Checkout More</a>
+        <a href="https://medium.com/@huzaifa6201" style="color: inherit; text-decoration: underline; underline">Checkout More</a>
       </p>
     {% endif %}
-
     <hr>
-
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
