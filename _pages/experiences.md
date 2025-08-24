@@ -19,11 +19,11 @@ nav_order: 2
     </div>
     <p>Position: <strong>Software Developer & Technical Support Specialist</strong></p>
     <p>Location: <strong>Remote (Washington D.C., United States)</strong></p>
-    <p><b>Key Responsibilities:</b></p>
+    <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Engineered an automated data collection pipeline from global real estate websites.</li>
-      <li>Built scripts for data cleaning, significantly improving dataset quality and consistency.</li>
-      <li>Contributed to the Vue.js + Django-based real estate platform, adding critical features and optimizations.</li>
+      <li>Engineered automated data pipelines, scraping and cleaning <b>50k+ property listings/month</b> from global real estate websites.</li>
+      <li>Developed new features for a <b>Vue.js + Django platform</b>, improving search and property visualization performance.</li>
+      <li>Built preprocessing scripts to generate <b>ML-ready datasets</b>, enabling downstream AI property analytics.</li>
     </ul>
   </div>
 </div>
@@ -39,17 +39,16 @@ nav_order: 2
       </a>
       <span class="timeline">Jan 2024 – Present</span>
     </div>
-    <p>Position: <strong>Software Engineer</strong></p>
-    <p>Employment Type: <strong>Contract (Part-Time)</strong></p>
+    <p>Position: <strong>Software Engineer (Part-Time, Contract)</strong></p>
     <p>Location: <strong>Remote (United States)</strong></p>
-    <p><b>Key Responsibilities:</b></p>
+    <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Contributing to the development of <a href="https://eduessential.com/" target="_blank" rel="noopener noreferrer"><strong>EduEssential</strong></a> and <a href="https://beta.waridibody.com/" target="_blank" rel="noopener noreferrer"><strong>Waridi</strong></a>, enhancing user experience through innovative solutions.</li>
-      <li>Utilizing <strong>Next.js</strong> and <strong>Python</strong> for both backend and frontend development, ensuring seamless integration and performance.</li>
+      <li>Developed modules for <a href="https://eduessential.com/" target="_blank"><strong>EduEssential</strong></a> and <a href="https://beta.waridibody.com/" target="_blank"><strong>Waridi</strong></a>, enhancing learning and healthcare platforms.</li>
+      <li>Delivered full-stack solutions with <b>Next.js and Python APIs</b> for scalable, high-performance features.</li>
+      <li>Optimized backend integrations to support <b>AI-driven personalization</b> in product experiences.</li>
     </ul>
   </div>
 </div>
-
 
 <div class="project0">
   <div class="image-container0">
@@ -62,14 +61,14 @@ nav_order: 2
       </a>
       <span class="timeline">Jan 2025 – Jul 2025</span>
     </div>
-    <p>Position: <strong>Software Engineer</strong></p>
-    <p>Employment Type: <strong>Contract (Part-Time)</strong></p>
+    <p>Position: <strong>Frontend Lead Developer</strong></p>
     <p>Location: <strong>Remote (Singapore)</strong></p>
-    <p><b>Key Responsibilities:</b></p>
+    <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Led the complete development of the <a href="https://stage.agentarc.ai/">AgentArc</a> frontend application, including all pages, API integrations, and token-based authorization systems.</li>
-      <li>Engineered the Privy login flow for secure user authentication and session management.</li>
-      <li>Integrated staking functionality via ABI smart contracts to support Web3 features.</li>
+      <li>Led frontend development of <a href="https://stage.agentarc.ai/">Agent Arc</a>, a <b>non-custodial AI trading terminal</b> on Solana.</li>
+      <li>Implemented secure <b>Privy login & token authentication</b>, reducing onboarding friction for 100+ users.</li>
+      <li>Integrated staking smart contracts for <b>on-chain fee handling</b> via ABI contracts.</li>
+      <li>Collaborated on <b>AI/ML trading APIs</b>; project won 🏆 <b>3rd Prize in AI Track</b> at Solana Breakout Hackathon.</li>
     </ul>
   </div>
 </div>
@@ -87,11 +86,10 @@ nav_order: 2
     </div>
     <p>Position: <strong>Junior Developer</strong></p>
     <p>Location: <strong>Karachi, Pakistan</strong></p>
-    <p><b>Key Responsibilities:</b></p>
+    <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Contributed to the development of an enterprise-grade ASP.NET application.</li>
-      <li>Collaborated closely with senior developers to implement and refine core features.</li>
-      <li>Worked on issue resolution and ongoing feature enhancements for production releases.</li>
+      <li>Contributed to an <b>ASP.NET enterprise platform</b>, delivering new modules and fixing critical production bugs.</li>
+      <li>Improved backend efficiency by working closely with senior engineers on optimization tasks.</li>
     </ul>
   </div>
 </div>
@@ -109,10 +107,10 @@ nav_order: 2
     </div>
     <p>Position: <strong>Full Stack Developer</strong></p>
     <p>Location: <strong>Remote (Ontario, Canada)</strong></p>
-    <p><b>Key Responsibilities:</b></p>
+    <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Developed and maintained scalable React.js web applications.</li>
-      <li>Collaborated with AI/ML engineers and product managers to deliver cross-functional features.</li>
+      <li>Developed and maintained <b>React.js applications</b> supporting robotics & AI-powered systems.</li>
+      <li>Collaborated with AI/ML engineers and PMs to design features bridging hardware robotics with cloud apps.</li>
     </ul>
   </div>
 </div>
@@ -129,9 +127,9 @@ nav_order: 2
       <span class="timeline">Dec 2022 – Jan 2023</span>
     </div>
     <p>Position: <strong>Backend Developer</strong></p>
-    <p><b>Key Responsibilities:</b></p>
+    <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Developed an OpenAI-based model trainer API validator in Node.js, ensuring high-quality training data pipelines.</li>
+      <li>Developed an <b>OpenAI-based model trainer API validator</b> in Node.js, ensuring high-quality data ingestion for training pipelines.</li>
     </ul>
   </div>
 </div>
@@ -149,9 +147,9 @@ nav_order: 2
     </div>
     <p>Position: <strong>Software Engineer Grade A1</strong></p>
     <p>Location: <strong>Remote (Abu Dhabi, United Arab Emirates)</strong></p>
-    <p><b>Key Responsibilities:</b></p>
+    <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Worked on a data extraction project leveraging Import.io to automate data collection processes.</li>
+      <li>Automated <b>data extraction workflows</b> using Import.io, streamlining client data collection pipelines.</li>
     </ul>
     <p><b>Experience Letter:</b> <a href="https://drive.google.com/file/d/1IZBQOztEgZVa7fb_5NYIrBr7p4Pd-7eb/view?usp=sharing" target="_blank">View Document</a></p>
   </div>
