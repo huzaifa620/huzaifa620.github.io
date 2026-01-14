@@ -28,6 +28,22 @@ nav_order: 3
 
 <div class="project0">
   <div class="image-container0">
+    {% include figure.liquid loading="eager" path="assets/img/smart_scan.jpg" style="width: 300px; height: 300px;" %}
+  </div>
+  <div class="project-details0">
+    <div class="heading">
+      <h3>SmartScan Billing Assistant</h3>
+      <span class="timeline">May 2024 - Jul 2024</span>
+    </div>
+    <p>
+      A computer vision‑based project designed to automate the process of calculating the total bill by detecting products and adding their prices using a camera, similar to a cashier. Uses the <b>YOLOv8 model</b> for <b>object detection and tracking</b>. This is the MVP of the main project implemented for a supermarket where I deployed the SmartScan billing system on more than <b>1200 products</b>.
+    </p>
+    <a href="https://github.com/hamzaalikhan822/SmartScan-Billing-Assistant" target="_blank" rel="noopener noreferrer"><button>View Repository</button></a>
+  </div>
+</div>
+
+<div class="project0">
+  <div class="image-container0">
     {% include figure.liquid loading="eager" path="assets/img/f1gpt.jpg" style="width: 300px; height: 300px;" %}
   </div>
   <div class="project-details0">
