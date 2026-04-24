@@ -6,7 +6,7 @@ subtitle: Software Engineer | AI/ML Enthusiast | Researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false
   more_info: >
     <p>📧 <a href="mailto:huzaifa62012@gmail.com" style="color: inherit; text-decoration: underline;">huzaifa62012@gmail.com</a></p>    
