@@ -16,10 +16,10 @@ nav_order: 3
       <span class="timeline">Jan 2026 - Jun 2026</span>
     </div>
     <p>
-      A <b>cross-platform (iOS &amp; Android)</b> mobile app for car-wash booking and subscriptions, built with <b>React Native</b> and <b>Expo (SDK 54)</b>.
+      A <b>cross-platform (iOS &amp; Android)</b> mobile app for car-wash booking and subscriptions, built with <b>React Native</b> and <b>Expo</b>.
       Features a configurable wash-menu catalog, a provider-agnostic <b>payments layer (ValorPay)</b>, <b>push notifications</b>, and offline-tolerant data via
-      <b>TanStack Query</b> persistence — backed by a <b>FastAPI</b> service and <b>Azure AD B2C</b> authentication. Released to the App Store and Play Store
-      through an <b>EAS Build/Submit</b> CI/CD pipeline.
+      <b>TanStack Query</b> persistence — backed by a <b>FastAPI</b> service. Released to the App Store and Play Store
+      through an <b>EAS Build/Submit</b> pipeline.
     </p>
   </div>
 </div>
@@ -36,7 +36,7 @@ nav_order: 3
     <p>
       A <b>React Native (Expo)</b> mental-health app for patients and psychiatrists, featuring mood tracking with charts, 11+ therapeutic mini-games, and a
       curated resources library. Implements <b>real-time chat (Socket.IO)</b>, <b>WebRTC video consultations</b>, <b>Stripe</b> appointment payments,
-      role-based access, and <b>Expo push notifications</b> — powered by a <b>NestJS + PostgreSQL</b> backend on <b>AWS (S3, ECS)</b> with <b>Clerk</b> auth.
+      role-based access, and <b>Expo push notifications</b> — powered by a <b>NestJS + PostgreSQL</b> backend with <b>Clerk</b> auth.
     </p>
   </div>
 </div>
