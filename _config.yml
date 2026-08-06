@@ -8,9 +8,9 @@ middle_name: Huzaifa
 last_name: Siddiq
 email: huzaifa62012@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Welcome to the academic portfolio of M Huzaifa. Here, you can find comprehensive information about his projects, publications, news updates, resume, and more. This site serves as a detailed showcase of his academic journey and professional accomplishments.
+  Muhammad Huzaifa, AI/LLM Engineer building production LLM systems: RAG, agentic pipelines with critic and retry loops, embeddings and semantic search, and multi-provider model routing across Anthropic and OpenAI. Full-stack across Python (Django, FastAPI) and TypeScript (Next.js, NestJS). Published researcher and award-winning developer.
 footer_text:
-keywords:
+keywords: AI Engineer, LLM Engineer, RAG, Retrieval-Augmented Generation, LangChain, Agents, Embeddings, Vector Databases, Anthropic, OpenAI, Machine Learning, Python, Django, FastAPI, Next.js, Full-Stack Engineer
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: DP-modified.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
