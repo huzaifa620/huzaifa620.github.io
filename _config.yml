@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: AI Engineer, LLM Engineer, RAG, Retrieval-Augmented Generation, LangChain, Agents, Embeddings, Vector Databases, Anthropic, OpenAI, Machine Learning, Python, Django, FastAPI, Next.js, Full-Stack Engineer
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: DP-modified.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://huzaifa620.github.io/ # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
