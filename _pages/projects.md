@@ -21,6 +21,7 @@ nav_order: 3
       <b>TanStack Query</b> persistence, backed by a <b>FastAPI</b> service. Released to the App Store and Play Store
       through an <b>EAS Build/Submit</b> pipeline.
     </p>
+    <a href="https://apps.apple.com/us/app/wash42/id6803226300" target="_blank" rel="noopener noreferrer"><button>App Store</button></a>
   </div>
 </div>
 
@@ -38,6 +39,7 @@ nav_order: 3
       curated resources library. Implements <b>real-time chat (Socket.IO)</b>, <b>WebRTC video consultations</b>, <b>Stripe</b> appointment payments,
       role-based access, and <b>Expo push notifications</b>, powered by a <b>NestJS + PostgreSQL</b> backend with <b>Clerk</b> auth.
     </p>
+    <a href="https://play.google.com/store/apps/details?id=com.duganpsychiatry.app" target="_blank" rel="noopener noreferrer"><button>Google Play</button></a>
   </div>
 </div>
 
