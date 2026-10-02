@@ -22,6 +22,7 @@ nav_order: 3
       through an <b>EAS Build/Submit</b> pipeline.
     </p>
     <a href="https://apps.apple.com/us/app/wash42/id6803226300" target="_blank" rel="noopener noreferrer"><button>App Store</button></a>
+    <a href="https://play.google.com/store/apps/details?id=com.wash42.app" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>Google Play</button></a>
   </div>
 </div>
 
