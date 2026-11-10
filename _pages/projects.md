@@ -133,9 +133,9 @@ the code is private; the links go to the live apps.</p>
       <span class="timeline">Aug 2025</span>
     </div>
     <p>
-      A <b>Retrieval‑Augmented Generation</b> assistant for Formula 1 that scrapes sources, chunks documents, embeds them into a vector store, and
-      orchestrates answers via a streaming LLM layer. Stack: <b>Next.js 15</b>, <b>Vercel AI SDK</b>, <b>Puppeteer</b>, <b>LangChain</b>, <b>Astra DB</b> (vector search),
-      with tool‑use for fast, cited race insights and rules explainers.
+      A <b>Retrieval‑Augmented Generation</b> chatbot for Formula 1. It scrapes F1 sources with <b>Puppeteer</b>, splits them into overlapping chunks with
+      <b>LangChain</b>, and stores the embeddings in <b>Astra DB</b> vector search. Each question retrieves the closest matches, which are added to the prompt
+      before the answer streams back through the <b>Vercel AI SDK</b>. Built with <b>Next.js 15</b>.
     </p>
     <a href="https://github.com/huzaifa620/rag-f1gpt-chatbot-nextjs" target="_blank" rel="noopener noreferrer"><button>View Repository</button></a>
   </div>
