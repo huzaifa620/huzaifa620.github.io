@@ -111,6 +111,9 @@ the code is private; the links go to the live apps.</p>
 <h2>AI &amp; other projects</h2>
 
 <div class="project0">
+  <div class="image-container0">
+    {% include figure.liquid loading="eager" path="assets/img/self-healing-rag.png" style="width: 300px; height: 300px;" %}
+  </div>
   <div class="project-details0">
     <div class="heading">
       <h3>self-healing-rag &middot; Eval-Gated RAG Service</h3>
@@ -122,6 +125,7 @@ the code is private; the links go to the live apps.</p>
       answers, 100% citation accuracy, about $0.0005 per query.
     </p>
     <a href="https://github.com/huzaifa620/self-healing-rag" target="_blank" rel="noopener noreferrer"><button>GitHub</button></a>
+    <a href="https://huzaifa620.github.io/self-healing-rag/" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>Eval Dashboard</button></a>
   </div>
 </div>
 
