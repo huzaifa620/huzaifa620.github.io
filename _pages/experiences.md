@@ -7,6 +7,28 @@ nav_order: 2
 ---
 
 <div class="project0">
+  <div class="project-details0">
+    <div class="heading">
+      <a href="https://www.linkedin.com/company/themonkco/" target="_blank" rel="noopener noreferrer">
+        <h3>The Monk Co.</h3>
+      </a>
+      <span class="timeline">Jan 2026 – Present</span>
+    </div>
+    <p>Position: <strong>Software Engineer</strong> (Full-Time)</p>
+    <p>Location: <strong>Hybrid (Karachi, Pakistan)</strong></p>
+    <p><b>Key Contributions:</b></p>
+    <ul>
+      <li><b>HeadQuarters CRM</b> (live on the App Store): sole engineer on all three codebases: a <b>React Native/Expo</b> app, a <b>Next.js</b> website and a <b>FastAPI/PostgreSQL</b> backend with a Redis worker. Built offline-first sync so jobs and photos captured without signal upload later in retry-safe steps, never lost or duplicated. Also built <b>Stripe</b> subscription billing, email verification, FCM/APNs push and real-time team chat.</li>
+      <li>Provisioned HeadQuarters' <b>AWS</b> environment as code (CDK: EC2, S3 backups, ECR, SES with DKIM) with GitHub Actions deploys, Sentry monitoring, and API, <b>Playwright</b> and <b>Maestro</b> end-to-end tests.</li>
+      <li><b>Wash42</b> (live on the App Store and Google Play): built the iOS and Android apps and the admin panel, and wrote most of the <b>FastAPI</b> backend: bookings, <b>ValorPay</b> payments with idempotency and signed webhooks, recurring membership billing with prorated upgrades, and Microsoft Entra External ID sign-in. Raised backend test coverage to <b>90%</b> and made CI enforce it.</li>
+      <li>Built the Wash42 <b>Progressive Web App</b> (React, TypeScript, Vite, Redux Toolkit, Workbox) matching the native app across 37 screens, with an offline outbox and Web Push. Lighthouse: PWA 100, accessibility 100. Deployed on Azure Static Web Apps.</li>
+      <li><b>Dugan Psychiatry</b> (live on Google Play; iOS in review): built core features of the patient and psychiatrist app (<b>React Native, NestJS</b>): Clerk sign-in across app and API, role-based onboarding, real-time chat with incoming-call handling and <b>WebRTC</b> video visits, and Stripe appointment payments. Shipped the first Google Play release.</li>
+      <li>Owned releases across the three apps: <b>EAS Build/Submit</b> pipelines, over-the-air updates, signing, store listings and review submissions.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="project0">
   <div class="image-container0">
     {% include figure.liquid loading="eager" path="assets/img/rehani.jpg" %}
   </div>
@@ -15,18 +37,19 @@ nav_order: 2
       <a href="https://www.rehanisoko.com/">
         <h3>Rehani Soko LLC</h3>
       </a>
-      <span class="timeline">Apr 2023 – Present</span>
+      <span class="timeline">Apr 2023 – Oct 2026</span>
     </div>
-    <p>Position: <strong>Software Developer</strong> (Full-Time since Nov 2024; Contract Apr 2023 – Oct 2024)</p>
+    <p>Position: <strong>Software Developer</strong> (Full-Time Nov 2024 – Oct 2026; Contract Apr 2023 – Oct 2024)</p>
     <p>Location: <strong>Remote (Washington D.C., United States)</strong></p>
     <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Build and run the <b>LLM side of the platform</b>. Requests route across <b>Anthropic and OpenAI model tiers</b> depending on what the task actually needs, and I count tokens with <b>tiktoken</b> so I know what each feature costs to run.</li>
-      <li>Built a <b>content pipeline that checks its own work</b>. A critic model scores every generated draft, rejects the weak ones, and sends them back to be regenerated before anything publishes. That took manual review out of the loop entirely.</li>
-      <li>Shipped the <b>WhatsApp and web assistants</b>. They keep a long-term profile of each user's preferences, pulled out of past conversations and merged over time, and handle voice through <b>Whisper and TTS</b>.</li>
-      <li>Built <b>semantic matching on embeddings</b>, and an underwriting service where the model has to return structured output that passes schema validation before anything downstream will touch it.</li>
-      <li>Wrote the scrapers and cleaning pipeline behind all of it, roughly <b>50,000 listings a month</b>. Reliability improved about 35% after the consistency checks went in.</li>
-      <li>Also lead feature work on the <b>Vue.js and Django</b> platform, and built the <b>React/Vite admin panel</b> the content team uses.</li>
+      <li><b>Hani</b> (live on the App Store; Google Play in review): built the Hani iOS/Android app (<b>Expo, React Native</b>) and the <b>Django</b> service behind it, as sole author of both. It covers phone/WhatsApp OTP, Apple, Google and Facebook sign-in, biometrics, search, saved homes, viewings and offers.</li>
+      <li><b>Hani's AI:</b> it searches Rehani and partner-portal listings, merges cross-portal duplicates by photo hash, ranks matches and re-hunts daily with price-drop alerts. It negotiates rent with agents over WhatsApp inside the seeker's budget. <b>Claude</b> reads agents' replies, and every answer is validated (a quoted price must appear in the message) with a rules fallback. Photo search runs on Claude vision, with EXIF stripped and nothing stored.</li>
+      <li>Shipped <b>Hani V2</b> to production: multi-term negotiation and an agent mode behind feature switches, backed by 350+ backend and 400+ mobile tests. Fixed production security holes found in my audit, including anonymous account takeover and unauthenticated listing deletion.</li>
+      <li><b>Tangaza</b> (Rehani's diaspora ad platform): main backend contributor to listing boosts. A paid boost becomes <b>Meta Click-to-WhatsApp</b> and <b>Google Search</b> campaigns, with LLM-written ad copy, automated Instagram and Messenger replies, and leads routed to Hani. Rebuilt the QR/flyer landing page into a property-first Listing Mode with built-in Hani chat.</li>
+      <li>Built the automated quality gate for <b>AI-generated virtual-tour videos</b>: ffmpeg extracts frames, a model scores each clip against its source photo, failing clips regenerate, and unresolved scenes open tickets in the admin panel.</li>
+      <li>Ran the platform's <b>LLM layer</b>: routing across <b>Anthropic and OpenAI</b> model tiers with per-request token-cost tracking, WhatsApp and web assistants with long-term user memory and <b>Whisper/TTS</b> voice, embeddings matching and schema-validated underwriting.</li>
+      <li>Built the scraping and cleaning pipeline for roughly <b>50,000 listings a month</b> (about 35% more reliable after consistency checks). Led feature work on the <b>Vue/Nuxt and Django</b> platform, including the Hani app landing page.</li>
     </ul>
   </div>
 </div>

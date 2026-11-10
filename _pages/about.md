@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Software Engineer | Full-Stack, Mobile & AI Systems | Researcher
+subtitle: Software Engineer | Mobile, Full-Stack & AI
 
 profile:
   align: right
@@ -20,40 +20,50 @@ social: false
 ---
 
 <p>
-I am a <strong>Software Engineer</strong> and a Computer &amp; Information Systems Engineering graduate from NED University, with 3+ years
-building things that are actually in production. Most of my work is <strong>Python (Django, FastAPI, Celery)</strong> and
-<strong>TypeScript (Next.js, NestJS, Vue.js)</strong>, plus <strong>React Native</strong> for mobile. I have shipped two apps to the App
-Store and Play Store, and I spend a fair amount of my week on the unglamorous half: async workers, queues, CI pipelines, and reviewing
-other people's code.
+I am a <strong>Software Engineer</strong> who builds whole products: the mobile app, the backend and dashboards behind it, the AI features
+inside it, and the infrastructure that ships it. I work across <strong>React Native and Expo</strong>, <strong>TypeScript and Next.js</strong>,
+<strong>Python (FastAPI, Django)</strong> and <strong>NestJS</strong>, with <strong>PostgreSQL and Redis</strong> underneath and
+<strong>AWS and Azure</strong> deployments behind CI/CD.
 </p>
 
 <p>
-A good part of my current job is <strong>AI work</strong>. I build and run the LLM side of a real-estate platform: requests route across
-<strong>Anthropic and OpenAI model tiers</strong> depending on the task, with token counting so I know what each feature costs to run.
-I also built a content pipeline that checks its own work, where a critic model scores every generated draft and sends the weak ones back
-to be regenerated before anything publishes, plus <strong>RAG and semantic search</strong> over roughly 50,000 documents a month, WhatsApp
-and web assistants with long-term user memory, and a <strong>Whisper and TTS</strong> voice pipeline.
+🚀 <strong>2026: five apps built, four live in the stores.</strong> At <strong>The Monk Co.</strong> I built
+<strong>HeadQuarters CRM</strong> as sole engineer (app, website and backend; live on the App Store), built the
+<strong>Wash42</strong> apps, admin panel and Progressive Web App and most of its backend (live on the App Store and Google Play), and built core
+features of <strong>Dugan Psychiatry</strong> (live on Google Play). At <strong>Rehani Soko</strong> I built
+<strong>Hani</strong>, an AI property concierge, app and backend (live on the App Store). Three more store submissions are in review, and
+<strong>ProperTkt</strong>, a freelance product, is in development. Details and store links are on the <a href="/projects/">Projects</a> page.
+</p>
+
+<p>
+A good part of my work is <strong>AI</strong>. Hani searches listings across portals, negotiates rent with agents over WhatsApp inside the
+seeker's budget, and searches by photo. Claude reads agents' replies, and every answer is validated before Hani acts on it. I also ran
+Rehani's LLM layer: requests route across <strong>Anthropic and OpenAI model tiers</strong> with per-request cost tracking, assistants keep
+long-term user memory and handle voice through <strong>Whisper and TTS</strong>, and AI-generated tour videos pass an automated quality gate
+before they publish.
 </p>
 
 <p>
 Two things I am glad about outside the day job. 🏆 <strong>3rd Prize in the AI Track ($15,000)</strong> at the Solana Breakout Hackathon, from
 <strong>8,300+ entries</strong>, for <em>Agent Arc</em>, a non-custodial AI trading terminal on Solana where I led the frontend. And two
-published papers, one on <strong>6D pose estimation for robotic grasping</strong> (arXiv:2411.13205) and one on <strong>real-time product
+co-authored papers, one on <strong>6D pose estimation for robotic grasping</strong> (arXiv:2411.13205) and one on <strong>real-time product
 segmentation on low-cost edge devices</strong> (DOI:10.13140/RG.2.2.34475.96800).
 </p>
 
 <p>
 Technically, I specialize in:
 <ul>
-  <li><b>Backend:</b> Python (Django, FastAPI, Flask, Celery), Node.js, NestJS, Express, ASP.NET, REST, GraphQL</li>
-  <li><b>Frontend:</b> React, Next.js, Vue.js, Nuxt, TypeScript, Tailwind CSS</li>
-  <li><b>Mobile:</b> React Native, Expo, EAS Build/Submit, WebRTC, Socket.IO</li>
-  <li><b>AI/LLM:</b> RAG, LangChain, Agents & Tool Use, Embeddings & Vector Search, Anthropic and OpenAI APIs, Structured Output, Whisper / TTS</li>
-  <li><b>Data & DevOps:</b> PostgreSQL, MongoDB, Redis, Docker, GitLab CI/CD, ETL & Data Pipelines, Puppeteer, Selenium</li>
+  <li><b>Mobile:</b> React Native, Expo (EAS Build, Submit, Update), Expo Router, offline sync, push notifications, WebRTC, App Store &amp; Google Play releases</li>
+  <li><b>Frontend:</b> React, Next.js, Vue.js, Nuxt, TypeScript, Vite, Tailwind CSS, Redux Toolkit, TanStack Query, PWAs</li>
+  <li><b>Backend:</b> FastAPI, Django, NestJS, Node.js, Celery, REST/OpenAPI, Socket.IO</li>
+  <li><b>Data:</b> PostgreSQL, SQL Server, MongoDB, Redis</li>
+  <li><b>AI/LLM:</b> Anthropic &amp; OpenAI APIs, multi-model routing, vision, structured output, RAG, LangChain, LangGraph, embeddings, LLM evals, Whisper</li>
+  <li><b>Cloud &amp; DevOps:</b> AWS (CDK, EC2, S3, CloudFront, SES), Azure, Docker, GitHub Actions, GitLab CI, Vercel, Sentry</li>
+  <li><b>Testing:</b> pytest, Jest, Playwright, Maestro, coverage gates in CI</li>
 </ul>
 </p>
 
 <p>
-What interests me most is the part of the problem that starts after the prototype works: making systems reliable, measurable and cheap
-enough to keep running. <strong>Currently open to Software Engineer and AI Engineer roles, and to contract work.</strong>
+What interests me most is the part that starts after the prototype works: getting a product through review, into users' hands, and
+reliable, measurable and cheap enough to keep running. <strong>Open to Software Engineer, Full-Stack, Mobile and AI Engineer roles, and to contract work.</strong>
 </p>
