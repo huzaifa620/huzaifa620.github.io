@@ -65,6 +65,7 @@ the code is private; the links go to the live apps.</p>
       role-based onboarding, real-time chat with incoming-call handling, <b>WebRTC</b> video visits and <b>Stripe</b> payments. I also shipped the first Google Play release.
     </p>
     <a href="https://play.google.com/store/apps/details?id=com.duganpsychiatry.app" target="_blank" rel="noopener noreferrer"><button>Google Play</button></a>
+    <a href="https://duganpsychiatry.com/" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>Website</button></a>
   </div>
 </div>
 
@@ -84,6 +85,7 @@ the code is private; the links go to the live apps.</p>
       and an agent mode, backed by 350+ backend and 400+ mobile tests.
     </p>
     <a href="https://apps.apple.com/app/id6830137760" target="_blank" rel="noopener noreferrer"><button>App Store</button></a>
+    <a href="https://www.rehanisoko.com/app" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>Website</button></a>
   </div>
 </div>
 
