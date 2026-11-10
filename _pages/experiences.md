@@ -7,9 +7,12 @@ nav_order: 2
 ---
 
 <div class="project0">
+  <div class="image-container0">
+    {% include figure.liquid loading="eager" path="assets/img/monkco.png" %}
+  </div>
   <div class="project-details0">
     <div class="heading">
-      <a href="https://www.linkedin.com/company/themonkco/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.themonkco.com/" target="_blank" rel="noopener noreferrer">
         <h3>The Monk Co.</h3>
       </a>
       <span class="timeline">Jan 2026 – Present</span>
