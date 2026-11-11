@@ -15,7 +15,7 @@ nav_order: 4
         <a href="https://www.neduet.edu.pk/"><h3>NED University of Engineering and Technology</h3></a>
         <span class="timeline">Oct 2019 - Oct 2023</span>
         </div>
-        <p><strong>Bachelor's of Engineering in Computer Systems</strong></p>     
+        <p><strong>Bachelor of Engineering (Computer Systems)</strong></p>     
         <p><strong>Service Rd, NED University Of Engineering & Technology, Karachi, Pakistan</strong></p>
         <ul>
             <li>Graduated with a CGPA of 3.289</li>

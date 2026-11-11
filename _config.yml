@@ -8,9 +8,9 @@ middle_name: Huzaifa
 last_name: Siddiq
 email: huzaifa62012@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Muhammad Huzaifa, AI/LLM Engineer building production LLM systems: RAG, agentic pipelines with critic and retry loops, embeddings and semantic search, and multi-provider model routing across Anthropic and OpenAI. Full-stack across Python (Django, FastAPI) and TypeScript (Next.js, NestJS). Published researcher and award-winning developer.
+  Muhammad Huzaifa, Software Engineer (Mobile, Full-Stack & AI). Builds whole products: React Native apps, Next.js and React frontends, FastAPI, Django and NestJS backends, LLM features on Anthropic and OpenAI, and AWS and Azure infrastructure. In 2026: five apps built, four live on the App Store and Google Play.
 footer_text:
-keywords: AI Engineer, LLM Engineer, RAG, Retrieval-Augmented Generation, LangChain, Agents, Embeddings, Vector Databases, Anthropic, OpenAI, Machine Learning, Python, Django, FastAPI, Next.js, Full-Stack Engineer
+keywords: Software Engineer, Mobile Engineer, Full-Stack Engineer, AI Engineer, React Native, Expo, iOS, Android, Next.js, React, TypeScript, Python, FastAPI, Django, NestJS, PostgreSQL, AWS, Azure, LLM, RAG, Anthropic, OpenAI
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
