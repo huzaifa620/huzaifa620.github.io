@@ -83,7 +83,7 @@ nav_order: 2
   </div>
   <div class="project-details0">
     <div class="heading">
-      <a href="https://arena.colosseum.org/projects/explore/agent-arc" target="_blank" rel="noopener noreferrer">
+      <a href="https://colosseum.com/arena/projects/agent-arc" target="_blank" rel="noopener noreferrer">
         <h3>Agent Arc</h3>
       </a>
       <span class="timeline">Jan 2025 – Jul 2025</span>
@@ -92,7 +92,7 @@ nav_order: 2
     <p>Location: <strong>Remote (Singapore)</strong></p>
     <p><b>Key Contributions:</b></p>
     <ul>
-      <li>Led the frontend for <a href="https://arena.colosseum.org/projects/explore/agent-arc" target="_blank" rel="noopener noreferrer">Agent Arc</a>, a <b>non-custodial AI trading terminal</b> on Solana, and wired the <b>AI/ML trading APIs</b> into the execution flow.</li>
+      <li>Led the frontend for <a href="https://colosseum.com/arena/projects/agent-arc" target="_blank" rel="noopener noreferrer">Agent Arc</a>, a <b>non-custodial AI trading terminal</b> on Solana, and wired the <b>AI/ML trading APIs</b> into the execution flow.</li>
       <li>Built the <b>Privy login and token auth</b> flow, which got the first 100+ users through signup without a seed phrase.</li>
       <li>Integrated the staking contracts so fees are handled <b>on-chain</b>, talking to them through their ABIs.</li>
       <li>Project won 🏆 <b>3rd Prize in the AI Track ($15,000)</b> at the Solana Breakout Hackathon, selected from <b>8,300+ global submissions</b>.</li>

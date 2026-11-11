@@ -16,7 +16,7 @@ nav_order: 7
       <span class="timeline">May 2025</span>
     </div>
     <p><b>Organizer:</b> <a href="https://arena.colosseum.org" target="_blank">Colosseum</a></p>
-    <p><b>Project:</b> <a href="https://arena.colosseum.org/projects/explore/agent-arc" target="_blank" rel="noopener noreferrer">Agent Arc</a></p>
+    <p><b>Project:</b> <a href="https://colosseum.com/arena/projects/agent-arc" target="_blank" rel="noopener noreferrer">Agent Arc</a></p>
     <p><b>Achievement:</b> 🏆 3rd Prize in the AI Track out of 8,300+ global submissions — awarded $15,000</p>
     <p><b>Description:</b> Agent Arc is a non-custodial AI trading terminal that charges users only when it earns them profit. Powered by neural nets and LLMs, it autonomously analyzes market trends, executes trades, and adapts to live market conditions. Built fully on Solana for transparent, trustless operation—no pooled funds, no subscriptions, no manual effort.</p>
     <p><b>My Contributions:</b></p>
@@ -26,7 +26,7 @@ nav_order: 7
       <li>Integrated smart contracts for staking and on-chain fee handling.</li>
       <li>Contributed to AI-driven trading logic and dynamic market behavior handling.</li>
     </ul>
-    <a href="https://arena.colosseum.org/projects/explore/agent-arc" target="_blank" rel="noopener noreferrer"><button>View Project on Colosseum</button></a>
+    <a href="https://colosseum.com/arena/projects/agent-arc" target="_blank" rel="noopener noreferrer"><button>View Project on Colosseum</button></a>
     <a href="https://blog.colosseum.com/announcing-the-winners-of-the-solana-breakout-hackathon/" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>View Winning Announcement</button></a>
   </div>
 </div>
