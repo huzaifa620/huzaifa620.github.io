@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://huzaifa620.github.io//sitemap.xml
