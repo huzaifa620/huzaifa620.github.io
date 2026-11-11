@@ -9,6 +9,7 @@ profile:
   image: prof_pic.png
   image_circular: false
   more_info: >
+    <p>💼 <a href="https://huzaifa620.github.io/portfolio/" style="color: inherit; text-decoration: underline;">Work portfolio</a></p>
     <p>📧 <a href="mailto:huzaifa62012@gmail.com" style="color: inherit; text-decoration: underline;">huzaifa62012@gmail.com</a></p>    
     <p>🌐 <a href="https://www.linkedin.com/in/muhammad-huzaifa-2a3821249/" style="color: inherit; text-decoration: underline;">linkedin.com/in/muhammad-huzaifa-2a3821249</a></p>
     <p>💻 <a href="https://github.com/huzaifa620" style="color: inherit; text-decoration: underline;">github.com/huzaifa620</a></p>
