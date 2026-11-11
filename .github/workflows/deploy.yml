@@ -2,40 +2,96 @@ name: Deploy site
 
 on:
   push:
-    branches: [main]
+    branches:
+      - master
+      - main
+    paths:
+      - "assets/**"
+      - "**.bib"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/broken-links.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+      - "!CONTRIBUTING.md"
+      - "!CUSTOMIZE.md"
+      - "!FAQ.md"
+      - "!INSTALL.md"
+      - "!README.md"
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - "assets/**"
+      - "**.bib"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/broken-links.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+      - "!CONTRIBUTING.md"
+      - "!CUSTOMIZE.md"
+      - "!FAQ.md"
+      - "!INSTALL.md"
+      - "!README.md"
   workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
   deploy:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Check every local link and asset resolves
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
+      - name: Install ImageMagick (responsive images)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
+      - name: Install and Build 🔧
         run: |
-          python3 - <<'PY'
-          import re, pathlib, sys
-          root = pathlib.Path("site")
-          missing = []
-          for page in root.rglob("*.html"):
-              for ref in re.findall(r'(?:href|src)="(/[^"#?]*)"', page.read_text(encoding="utf-8")):
-                  p = root / ref.lstrip("/")
-                  if not (p.is_file() or (p / "index.html").is_file()):
-                      missing.append(f"{page}: {ref}")
-          for ref in re.findall(r'url\((/[^)]+)\)', (root / "assets/fonts/fonts.css").read_text()):
-              if not (root / ref.lstrip("/")).is_file():
-                  missing.append(f"fonts.css: {ref}")
-          print("\n".join(missing) or "all local links resolve")
-          sys.exit(1 if missing else 0)
-          PY
-      - name: Publish to gh-pages
+          pip3 install --upgrade jupyter
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+      - name: Deploy 🚀
+        if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: site
-          clean: true
+          folder: _site
