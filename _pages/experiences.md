@@ -40,9 +40,9 @@ nav_order: 2
       <a href="https://www.rehanisoko.com/">
         <h3>Rehani Soko LLC</h3>
       </a>
-      <span class="timeline">Apr 2023 – Oct 2026</span>
+      <span class="timeline">Apr 2023 – Nov 2026</span>
     </div>
-    <p>Position: <strong>Software Engineer</strong> (Full-Time, Nov 2024 – Oct 2026)<br>Earlier contract roles: Data Manager (Apr – Oct 2023), then Full Stack Developer (Oct 2023 – Oct 2024)</p>
+    <p>Position: <strong>Software Engineer</strong> (Full-Time, Nov 2024 – Nov 2026)<br>Earlier contract roles: Data Manager (Apr – Oct 2023), then Full Stack Developer (Oct 2023 – Oct 2024)</p>
     <p>Location: <strong>Remote (Washington D.C., United States)</strong></p>
     <p><b>Key Contributions:</b></p>
     <ul>
