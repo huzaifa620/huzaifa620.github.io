@@ -7,7 +7,7 @@ nav_order: 3
 ---
 
 <h2>2026: 5 apps built, 4 live in the stores</h2>
-<p>Five live store releases, three more submissions in review, and one app in development. These are client and employer products, so
+<p>Six live store releases, two more submissions in review, and one app in development. These are client and employer products, so
 the code is private; the links go to the live apps.</p>
 
 <div class="project0">
@@ -79,12 +79,13 @@ the code is private; the links go to the live apps.</p>
       <span class="timeline">2026 &middot; Rehani Soko</span>
     </div>
     <p>
-      <b>Live on the App Store; Google Play in review.</b> Sole author of the <b>Expo/React Native</b> app and the <b>Django</b> service behind it. Hani
+      <b>Live on the App Store and Google Play.</b> Sole author of the <b>Expo/React Native</b> app and the <b>Django</b> service behind it. Hani
       searches listings across portals and merges duplicates by photo hash. It negotiates rent with agents over WhatsApp inside the seeker's budget, with
       <b>Claude</b> reading replies under strict validation and a rules fallback, and it searches by photo with Claude vision. Hani V2 added multi-term negotiation
       and an agent mode, backed by 350+ backend and 400+ mobile tests.
     </p>
     <a href="https://apps.apple.com/app/id6830137760" target="_blank" rel="noopener noreferrer"><button>App Store</button></a>
+    <a href="https://play.google.com/store/apps/details?id=com.rehanisoko.hani" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>Google Play</button></a>
     <a href="https://www.rehanisoko.com/app" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>Website</button></a>
   </div>
 </div>
