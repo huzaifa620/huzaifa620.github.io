@@ -28,12 +28,12 @@ inside it, and the infrastructure that ships it. I work across <strong>React Nat
 </p>
 
 <p>
-🚀 <strong>2026: five apps built, four live in the stores.</strong> At <strong>The Monk Co.</strong> I built
+🚀 <strong>2026: five apps built, all five live in the stores.</strong> At <strong>The Monk Co.</strong> I built
 <strong>HeadQuarters CRM</strong> as sole engineer (app, website and backend; live on the App Store and Google Play), built the
 <strong>Wash42</strong> apps, admin panel and Progressive Web App and most of its backend (live on the App Store and Google Play), and built core
 features of <strong>Dugan Psychiatry</strong> (live on Google Play). At <strong>Rehani Soko</strong> I built
-<strong>Hani</strong>, an AI property concierge, app and backend (live on the App Store and Google Play). One more store submission is in review, and
-<strong>ProperTkt</strong>, a freelance product, is in development. Details and store links are on the <a href="/projects/">Projects</a> page.
+<strong>Hani</strong>, an AI property concierge, app and backend (live on the App Store and Google Play). As a freelancer I built
+<strong>ProperTkt</strong>, a maintenance-ticket platform for landlords (live on the App Store; Android to follow). Details and store links are on the <a href="/projects/">Projects</a> page.
 </p>
 
 <p>

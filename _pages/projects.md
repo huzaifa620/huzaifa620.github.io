@@ -6,8 +6,8 @@ nav: true
 nav_order: 3
 ---
 
-<h2>2026: 5 apps built, 4 live in the stores</h2>
-<p>Seven live store releases, one more submission in review, and one app in development. These are client and employer products, so
+<h2>2026: 5 apps built, all 5 live in the stores</h2>
+<p>Eight live store releases, one more submission in review, and one Android release to follow. These are client and employer products, so
 the code is private; the links go to the live apps.</p>
 
 <div class="project0">
@@ -101,12 +101,13 @@ the code is private; the links go to the live apps.</p>
       <span class="timeline">Oct 2026 – Present &middot; Freelance</span>
     </div>
     <p>
-      <b>In development; Android preview available.</b> Sole engineer on the <b>FastAPI/PostgreSQL/Celery</b> API, the <b>React</b> web dashboard
-      and admin console, and the <b>Expo</b> mobile app, all generated from one OpenAPI contract. The API and website are deployed on <b>AWS</b>
-      (CDK, EC2, CloudFront, nightly backups) with automated staging-to-production deploys.
+      <b>Live on the App Store; Android to follow.</b> Sole engineer on the <b>FastAPI/PostgreSQL/Celery</b> API (row-level security per landlord), the
+      <b>React</b> web dashboard and admin console, and the <b>Expo</b> mobile app (Face ID sign-in, push notifications, iPad support), all generated from one
+      OpenAPI contract. <b>Stripe</b> subscription billing, <b>Twilio</b> SMS and WhatsApp, admin MFA and Sentry. Deployed on <b>AWS</b> (CDK, EC2, CloudFront)
+      with automated staging-to-production deploys, nightly backups and a tested restore.
     </p>
     <a href="https://www.propertkt.com" target="_blank" rel="noopener noreferrer"><button>Website</button></a>
-    <a href="https://expo.dev/artifacts/eas/EPoAdILqSzFw5Ch_cRjoZX5AWWK71vReFQS7CMUJGNo.apk" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>Android APK (preview)</button></a>
+    <a href="https://apps.apple.com/app/propertkt/id6837506452" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;"><button>App Store</button></a>
   </div>
 </div>
 
