@@ -42,7 +42,7 @@ nav_order: 2
       </a>
       <span class="timeline">Apr 2023 – Nov 2026</span>
     </div>
-    <p>Position: <strong>Software Engineer</strong> (Full-Time Nov 2024 – Dec 2025; Part-Time Jan – Nov 2026)<br>Earlier contract roles: Data Manager (Apr – Oct 2023), then Full Stack Developer (Oct 2023 – Oct 2024)</p>
+    <p>Position: <strong>Software Engineer</strong> (Full-Time Nov 2024 – Dec 2025; Part-Time Jan – Nov 2026)<br>Earlier freelance roles: Data Manager (Apr – Oct 2023), then Full Stack Developer (Oct 2023 – Oct 2024)</p>
     <p>Location: <strong>Remote (Washington D.C., United States)</strong></p>
     <p><b>Key Contributions:</b></p>
     <ul>
