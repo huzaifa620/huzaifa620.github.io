@@ -59,26 +59,6 @@ nav_order: 2
 
 <div class="project0">
   <div class="image-container0">
-    {% include figure.liquid loading="eager" path="assets/img/lovum.png" %}
-  </div>
-  <div class="project-details0">
-    <div class="heading">
-      <h3>Lovum Group</h3>
-      <span class="timeline">Jan 2024 – Dec 2025</span>
-    </div>
-    <p>Position: <strong>Software Engineer (Part-Time, Contract)</strong></p>
-    <p>Location: <strong>Remote (United States)</strong></p>
-    <p><b>Key Contributions:</b></p>
-    <ul>
-      <li>Worked on two of their products, <strong>EduEssential</strong> and <strong>Waridi</strong>, a learning platform and a healthcare one.</li>
-      <li>Built the <b>Next.js</b> frontends and the <b>Python APIs</b> behind them, and worked on getting both to scale.</li>
-      <li>Wired up the backend integrations behind their <b>AI-driven personalisation</b> features.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="project0">
-  <div class="image-container0">
     {% include figure.liquid loading="eager" path="assets/img/agentarc_logo.jpg" %}
   </div>
   <div class="project-details0">
