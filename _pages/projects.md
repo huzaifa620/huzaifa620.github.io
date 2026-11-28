@@ -7,7 +7,7 @@ nav_order: 3
 ---
 
 <h2>2026: 5 apps built, all 5 live in the stores</h2>
-<p>Eight live store releases, one more submission in review, and one Android release to follow. These are client and employer products, so
+<p>Eight live store releases and two more submissions in review. These are client and employer products, so
 the code is private; the links go to the live apps.</p>
 
 <div class="project0">
@@ -101,7 +101,7 @@ the code is private; the links go to the live apps.</p>
       <span class="timeline">Oct 2026 – Present &middot; Freelance</span>
     </div>
     <p>
-      <b>Live on the App Store; Android to follow.</b> Sole engineer on the <b>FastAPI/PostgreSQL/Celery</b> API (row-level security per landlord), the
+      <b>Live on the App Store; Android in review.</b> Sole engineer on the <b>FastAPI/PostgreSQL/Celery</b> API (row-level security per landlord), the
       <b>React</b> web dashboard and admin console, and the <b>Expo</b> mobile app (Face ID sign-in, push notifications, iPad support), all generated from one
       OpenAPI contract. <b>Stripe</b> subscription billing, <b>Twilio</b> SMS and WhatsApp, admin MFA and Sentry. Deployed on <b>AWS</b> (CDK, EC2, CloudFront)
       with automated staging-to-production deploys, nightly backups and a tested restore.
